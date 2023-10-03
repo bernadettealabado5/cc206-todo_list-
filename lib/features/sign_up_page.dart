@@ -7,7 +7,7 @@ class signup extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Column(children: [
-       TextFormField()
+       Text("Sign Up"), TextField(),TextFormField()
       ],)
 
     );
