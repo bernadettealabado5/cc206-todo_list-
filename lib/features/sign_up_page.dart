@@ -26,7 +26,7 @@ class _LoginPageState extends State<LoginPage> {
     return Scaffold(
       appBar: AppBar(
         elevation: 0.0,
-        backgroundColor: Colors.white,
+        backgroundColor: Color.fromARGB(255, 125, 59, 153),
         //brightness: Brightness.light,
         leading: IconButton(
           icon: const BackButtonIcon(),
@@ -46,11 +46,11 @@ class _LoginPageState extends State<LoginPage> {
             const SizedBox(height: 80.0),
             Column(
               children: <Widget>[
-                Image.asset('packages/shrine_images/diamond.png'),
+                Image.asset('images/header.png'),
                 const SizedBox(height: 16.0),
                 Text(
-                  'SHRINE',
-                  style: Theme.of(context).textTheme.headline5,
+                  'Get Stuff Done: A To-Do List Application \n                             Sign In',
+                  style: Theme.of(context).textTheme.headlineSmall,
                 ),
               ],
             ),
@@ -91,10 +91,6 @@ class _LoginPageState extends State<LoginPage> {
                         ),
                       ),
                       onPressed: () {
-                        // The login screen is immediately displayed on top of
-                        // the Shrine home screen using onGenerateRoute and so
-                        // rootNavigator must be set to true in order to get out
-                        // of Shrine completely.
                         Navigator.of(context, rootNavigator: true).pop();
                       },
                       child: const Text('CANCEL'),
@@ -109,7 +105,7 @@ class _LoginPageState extends State<LoginPage> {
                       onPressed: () {
                         Navigator.pop(context);
                       },
-                      child: const Text('NEXT'),
+                      child: const Text('SIGN IN'),
                     ),
                   ],
                 ),
