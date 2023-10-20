@@ -1,10 +1,4 @@
-// Copyright 2014 The Flutter Authors. All rights reserved.
-// Use of this source code is governed by a BSD-style license that can be
-// found in the LICENSE file.
-
 import 'package:flutter/material.dart';
-
-//import 'package:flutter_gallery/demo/shrine/colors.dart';
 
 class LoginPage extends StatefulWidget {
   @override
@@ -32,9 +26,6 @@ class _LoginPageState extends State<LoginPage> {
           icon: const BackButtonIcon(),
           tooltip: MaterialLocalizations.of(context).backButtonTooltip,
           onPressed: () {
-            // The login screen is immediately displayed on top of the Shrine
-            // home screen using onGenerateRoute and so rootNavigator must be
-            // set to true in order to get out of Shrine completely.
             Navigator.of(context, rootNavigator: true).pop();
           },
         ),
