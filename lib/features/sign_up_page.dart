@@ -1,3 +1,5 @@
+// ignore_for_file: camel_case_types
+
 import 'package:flutter/material.dart';
 
 class signup extends StatelessWidget {
@@ -6,11 +8,8 @@ class signup extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Column(children: [
-       Text("Sign Up"), TextField(),TextFormField()
-      ],)
-
-    );
+        body: Column(
+      children: [const Text("Sign Up"), const TextField(), TextFormField()],
+    ));
   }
 }
-
