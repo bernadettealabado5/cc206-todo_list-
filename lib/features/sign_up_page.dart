@@ -1,125 +1,61 @@
+// sign_up_page.dart
+
+import 'package:cc206_todo_list_/features/homescreen.dart';
 import 'package:flutter/material.dart';
 
-class LoginPage extends StatefulWidget {
-  @override
-  _LoginPageState createState() => _LoginPageState();
-}
-
-class _LoginPageState extends State<LoginPage> {
+class SignUpPage extends StatelessWidget {
+  final TextEditingController _emailController = TextEditingController();
   final TextEditingController _usernameController = TextEditingController();
   final TextEditingController _passwordController = TextEditingController();
-  static const ShapeDecoration _decoration =  ShapeDecoration(
-    shape: BeveledRectangleBorder(
-      side: BorderSide(color: Colors.purple, width: 0.5),
-      borderRadius: BorderRadius.all(Radius.circular(7.0)),
-    ),
-  );
+
+  SignUpPage({super.key});
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        elevation: 0.0,
-        backgroundColor: Color.fromARGB(255, 125, 59, 153),
-        //brightness: Brightness.light,
-        leading: IconButton(
-          icon: const BackButtonIcon(),
-          tooltip: MaterialLocalizations.of(context).backButtonTooltip,
-          onPressed: () {
-            Navigator.of(context, rootNavigator: true).pop();
-          },
-        ),
+        title: const Text('Sign Up'),
       ),
-      body: SafeArea(
-        child: ListView(
-          padding: const EdgeInsets.symmetric(horizontal: 24.0),
-          children: <Widget>[
-            const SizedBox(height: 80.0),
-            Column(
-              children: <Widget>[
-                Image.asset('images/header.png'),
-                const SizedBox(height: 16.0),
-                Text(
-                  'Get Stuff Done: A To-Do List Application \n                             Sign In',
-                  style: Theme.of(context).textTheme.headlineSmall,
-                ),
-              ],
+      body: Padding(
+        padding: const EdgeInsets.all(16.0),
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            TextField(
+              controller: _emailController,
+              decoration: const InputDecoration(labelText: 'Email'),
             ),
-            const SizedBox(height: 120.0),
-            PrimaryColorOverride(
-              color: Colors.purple,
-              child: Container(
-                decoration: _decoration,
-                child: TextField(
-                  controller: _usernameController,
-                  decoration: const InputDecoration(
-                    labelText: 'Username',
-                  ),
-                ),
-              ),
+            TextField(
+              controller: _usernameController,
+              decoration: const InputDecoration(labelText: 'Username'),
             ),
-            const SizedBox(height: 12.0),
-            PrimaryColorOverride(
-              color: Colors.purple,
-              child: Container(
-                decoration: _decoration,
-                child: TextField(
-                  controller: _passwordController,
-                  decoration: const InputDecoration(
-                    labelText: 'Password',
-                  ),
-                ),
-              ),
+            TextField(
+              controller: _passwordController,
+              decoration: const InputDecoration(labelText: 'Password'),
+              obscureText: true,
             ),
-            Wrap(
-              children: <Widget>[
-                ButtonBar(
-                  children: <Widget>[
-                    TextButton(
-                      style: TextButton.styleFrom(
-                        shape: const BeveledRectangleBorder(
-                          borderRadius: BorderRadius.all(Radius.circular(7.0)),
-                        ),
-                      ),
-                      onPressed: () {
-                        Navigator.of(context, rootNavigator: true).pop();
-                      },
-                      child: const Text('CANCEL'),
-                    ),
-                    ElevatedButton(
-                      style: ElevatedButton.styleFrom(
-                        elevation: 8.0,
-                        shape: const BeveledRectangleBorder(
-                          borderRadius: BorderRadius.all(Radius.circular(7.0)),
-                        ),
-                      ),
-                      onPressed: () {
-                        Navigator.pop(context);
-                      },
-                      child: const Text('SIGN IN'),
-                    ),
-                  ],
-                ),
-              ],
+            const SizedBox(height: 20),
+            ElevatedButton(
+              onPressed: () {
+                // Implement your sign-up logic here
+                // For simplicity, navigate to the home screen
+                Navigator.pushReplacement(
+                  context,
+                  MaterialPageRoute(builder: (context) => HomeScreen(username: _usernameController.text)),
+                );
+              },
+              child: const Text('Sign Up'),
+            ),
+            const SizedBox(height: 10),
+            TextButton(
+              onPressed: () {
+                Navigator.pop(context); // Navigate back to the sign-in page
+              },
+              child: const Text('Already have an account? Sign In'),
             ),
           ],
         ),
       ),
-    );
-  }
-}
-
-class PrimaryColorOverride extends StatelessWidget {
-  const PrimaryColorOverride({Key? key, this.color, this.child}) : super(key: key);
-
-  final Color? color;
-  final Widget? child;
-
-  @override
-  Widget build(BuildContext context) {
-    return Theme(
-      child: child!,
-      data: Theme.of(context).copyWith(primaryColor: color),
     );
   }
 }
