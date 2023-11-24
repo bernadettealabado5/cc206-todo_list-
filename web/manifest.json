@@ -1,6 +1,6 @@
 {
-    "name": "cc206_todo_list_",
-    "short_name": "cc206_todo_list_",
+    "name": "main",
+    "short_name": "main",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

@@ -1,19 +1,37 @@
-// ignore_for_file: unused_import
-
-import 'package:cc206_todo_list/features/overall_task.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 
-import 'package:cc206_todo_list/main.dart';
+// ignore: unused_import
+import 'package:main/main.dart'; // Update this import based on your project's structure
 
 void main() {
-  testWidgets('Counter increments smoke test', (WidgetTester tester) async {
+  testWidgets('Adding a task', (WidgetTester tester) async {
     // Build our app and trigger a frame.
-    await tester.pumpWidget(const TaskListApp());
+    await tester.pumpWidget(MaterialApp(home: mainn()));
 
-    // Verify that our widget is correctly displayed.
-    expect(find.text('0'), findsOneWidget);
+    // Tap the '+' button to open the add task dialog.
+    await tester.tap(find.byIcon(Icons.add));
+    await tester.pumpAndSettle();
 
-    // You can continue writing your test here...
+    // Enter task details in the dialog.
+    await tester.enterText(find.byKey(ValueKey('taskTitleField')), 'Test Task');
+    await tester.enterText(
+        find.byKey(ValueKey('taskDescriptionField')), 'Test Description');
+
+    // Tap the date button to select a due date.
+    await tester.tap(find.byKey(ValueKey('dueDateButton')));
+    await tester.pumpAndSettle();
+
+    // Select a date in the calendar.
+    await tester
+        .tap(find.text('1')); // Update this based on your calendar widget
+    await tester.pumpAndSettle();
+
+    // Tap the 'Add' button to add the task.
+    await tester.tap(find.text('Add'));
+    await tester.pumpAndSettle();
+
+    // Verify that the task has been added.
+    expect(find.text('Test Task'), findsOneWidget);
   });
 }
