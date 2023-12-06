@@ -5,7 +5,7 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>CFBundleDisplayName</key>
-	<string>Cc206 Todo List </string>
+	<string>Get Stuff Done:  </string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
@@ -13,17 +13,72 @@
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
-	<string>cc206_todo_list_</string>
+	<string>GetStuffDone</string>
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
+	<key>CFBundleLocalizations</key>
+	<array>
+		<string>en</string>
+		<string>tl</string>
+	</array>
+
 	<key>CFBundleShortVersionString</key>
 	<string>$(FLUTTER_BUILD_NAME)</string>
 	<key>CFBundleSignature</key>
 	<string>????</string>
+	<key>CFBundleURLTypes</key>
+	<array>
+        <dict>
+            <key>CFBundleTypeRole</key>
+            <string>Editor</string>
+            <key>CFBundleURLSchemes</key>
+            <array>
+                <string>com.googleusercontent.apps.701136788355-j5jtui147uspkvo5j6kete1q5gceig56</string>
+                
+            </array>
+        </dict>
+
+        <dict>
+        <key>CFBundleTypeRole</key>
+        <string>Editor</string>
+        <key>CFBundleURLName</key>
+        <string>getstuffdone.com</string>
+        <key>CFBundleURLSchemes</key>
+        <array>
+        <string>getstuffdone</string>
+        </array>
+        </dict>
+    </array>
+    <key>FlutterDeepLinkingEnabled</key>
+    <true/>
+
+
 	<key>CFBundleVersion</key>
 	<string>$(FLUTTER_BUILD_NUMBER)</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
+
+
+	<key>NSCameraUsageDescription</key>
+    <string>"Get Stuff Done: A To-Do List Application" would like to access your camera.</string>
+	<key>NSCalendarsUsageDescription</key>
+    <string>"Get Stuff Done: A To-Do List Application" would like to access your calendar.</string>
+	<key>PermissionGroupNotification</key>
+    <string>"Get Stuff Done: A To-Do List Application" would like to send you notification.</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+    <string>"Get Stuff Done: A To-Do List Application" would like to access your photos.</string>
+	<key>NSMicrophoneUsageDescription</key>
+    <string>"Get Stuff Done: A To-Do List Application" would like to access your microphone.</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+    <string>"Get Stuff Done: A To-Do List Application" would like to access your location.</string>
+	<key>NSContactsUsageDescription</key>
+    <string>"Get Stuff Done: A To-Do List Application" would like to access your contacts.</string>
+	<key>NSFaceIDUsageDescription</key>
+    <string>Do you want to allow "Get Stuff Done: A To-Do List Application" to use FaceID.</string>
+	<key>NSBluetoothAlwaysUsageDescription</key>
+    <string>"Get Stuff Done: A To-Do List Application" would like to use  bluetooth.</string>
+
+
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
 	<key>UIMainStoryboardFile</key>
@@ -41,9 +96,8 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
-	<key>CADisableMinimumFrameDurationOnPhone</key>
-	<true/>
-	<key>UIApplicationSupportsIndirectInputEvents</key>
-	<true/>
+	<key>UIViewControllerBasedStatusBarAppearance</key>
+	<false/>
+
 </dict>
 </plist>
