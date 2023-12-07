@@ -1,0 +1,9 @@
+NSCameraUsageDescription = "\"Get Stuff Done: A To-Do List Application\" would like to access your camera.";
+NSCalendarsUsageDescription = "\"Get Stuff Done: A To-Do List Application\" would like to access your calendar.";
+PermissionGroupNotification = "\"Get Stuff Done: A To-Do List Application\" would like to send you notification.";
+NSPhotoLibraryUsageDescription = "\"Get Stuff Done: A To-Do List Application\" would like to access your photos.";
+NSMicrophoneUsageDescription = "\"Get Stuff Done: A To-Do List Application\" would like to access your microphone.";
+NSLocationWhenInUseUsageDescription = "\"Get Stuff Done: A To-Do List Application\" would like to access your location.";
+NSContactsUsageDescription = "\"Get Stuff Done: A To-Do List Application\" would like to access your contacts.";
+NSFaceIDUsageDescription = "Do you want to allow \"Get Stuff Done: A To-Do List Application\" to use FaceID.";
+NSBluetoothAlwaysUsageDescription = "\"Get Stuff Done: A To-Do List Application\" would like to use  bluetooth.";

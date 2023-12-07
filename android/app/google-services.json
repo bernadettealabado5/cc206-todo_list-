@@ -1,0 +1,90 @@
+{
+  "project_info": {
+    "project_number": "701136788355",
+    "project_id": "todolistapp-6193a",
+    "storage_bucket": "todolistapp-6193a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:701136788355:android:90da4b29efbd8689a974b6",
+        "android_client_info": {
+          "package_name": "Robin.Do"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "701136788355-slvmrgt7n4l6i7637h81gbcn28j6l5qu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBX_00w7Tz2T9DIqqFR2CNNYzPAzt_NMKE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "701136788355-slvmrgt7n4l6i7637h81gbcn28j6l5qu.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "701136788355-dl1fjsls17firnsrn9kjj9ok81f82dni.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "Robin.Do"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:701136788355:android:eb6088dad9f8632ca974b6",
+        "android_client_info": {
+          "package_name": "toDoList.charlie"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "701136788355-sd3vlv8lum0scmml1f4lgb0bbqbb0dkq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "toDoList.charlie",
+            "certificate_hash": "9bbb3186b2189ef16d8f272bdab59362c395cbb4"
+          }
+        },
+        {
+          "client_id": "701136788355-slvmrgt7n4l6i7637h81gbcn28j6l5qu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBX_00w7Tz2T9DIqqFR2CNNYzPAzt_NMKE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "701136788355-slvmrgt7n4l6i7637h81gbcn28j6l5qu.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "701136788355-dl1fjsls17firnsrn9kjj9ok81f82dni.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "Robin.Do"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
