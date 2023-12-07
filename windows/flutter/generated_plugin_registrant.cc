@@ -17,7 +17,11 @@ void RegisterPlugins(flutter::PluginRegistry* registry) {
 #include <url_launcher_windows/url_launcher_windows.h>
 
 void RegisterPlugins(flutter::PluginRegistry* registry) {
+<<<<<<< HEAD
 >>>>>>> origin/login-Alabado-Carbonell
+=======
+>>>>>>> login-Alabado-Carbonell
+>>>>>>> main
   UrlLauncherWindowsRegisterWithRegistrar(
       registry->GetRegistrarForPlugin("UrlLauncherWindows"));
 }

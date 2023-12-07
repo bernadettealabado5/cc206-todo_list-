@@ -35,7 +35,11 @@ packages:
     source: hosted
     version: "3.4.9"
 =======
+<<<<<<< HEAD
 >>>>>>> origin/login-Alabado-Carbonell
+=======
+>>>>>>> login-Alabado-Carbonell
+>>>>>>> main
   args:
     dependency: transitive
     description:
@@ -365,7 +369,11 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "2.0.9"
+<<<<<<< HEAD
 >>>>>>> origin/login-Alabado-Carbonell
+=======
+>>>>>>> login-Alabado-Carbonell
+>>>>>>> main
   flutter_test:
     dependency: "direct dev"
     description: flutter
@@ -695,7 +703,11 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.0.1"
+<<<<<<< HEAD
 >>>>>>> origin/login-Alabado-Carbonell
+=======
+>>>>>>> login-Alabado-Carbonell
+>>>>>>> main
   petitparser:
     dependency: transitive
     description:
@@ -866,7 +878,11 @@ packages:
     source: hosted
     version: "1.2.3"
 =======
+<<<<<<< HEAD
 >>>>>>> origin/login-Alabado-Carbonell
+=======
+>>>>>>> login-Alabado-Carbonell
+>>>>>>> main
   sky_engine:
     dependency: transitive
     description: flutter
@@ -1098,7 +1114,11 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.1.9+1"
+<<<<<<< HEAD
 >>>>>>> origin/login-Alabado-Carbonell
+=======
+>>>>>>> login-Alabado-Carbonell
+>>>>>>> main
   vector_math:
     dependency: transitive
     description:
@@ -1176,4 +1196,8 @@ sdks:
 >>>>>>> 0b3fa01dcfad207465040a2b9e8eadb72d206637
 =======
   flutter: ">=3.7.0-0"
+<<<<<<< HEAD
 >>>>>>> origin/login-Alabado-Carbonell
+=======
+>>>>>>> login-Alabado-Carbonell
+>>>>>>> main

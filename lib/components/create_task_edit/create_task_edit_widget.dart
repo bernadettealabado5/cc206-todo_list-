@@ -1,6 +1,7 @@
 import '/auth/firebase_auth/auth_util.dart';
 import '/backend/backend.dart';
 <<<<<<< HEAD
+<<<<<<< HEAD
 import '/flutter_com/flutter_com_theme.dart';
 import '/flutter_com/flutter_com_util.dart';
 import '/flutter_com/flutter_com_widgets.dart';
@@ -9,6 +10,16 @@ import '../../flutter_com/flutter_com_theme.dart';
 import '../../flutter_com/flutter_com_util.dart';
 import '../../flutter_com/flutter_com_widgets.dart';
 >>>>>>> origin/login-Alabado-Carbonell
+=======
+import '../../flutter_com/flutter_com_theme.dart';
+import '../../flutter_com/flutter_com_util.dart';
+import '../../flutter_com/flutter_com_widgets.dart';
+=======
+import '/flutter_com/flutter_com_theme.dart';
+import '/flutter_com/flutter_com_util.dart';
+import '/flutter_com/flutter_com_widgets.dart';
+>>>>>>> main
+>>>>>>> main
 import 'dart:ui';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/foundation.dart';

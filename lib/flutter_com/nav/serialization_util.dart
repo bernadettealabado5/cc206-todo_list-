@@ -6,6 +6,7 @@ import 'package:from_css_color/from_css_color.dart';
 import '/backend/backend.dart';
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 import '../../flutter_com/lat_lng.dart';
 import '../../flutter_com/place.dart';
 import '../../flutter_com/uploaded_file.dart';
@@ -14,6 +15,16 @@ import '../../flutter_flow/lat_lng.dart';
 import '../../flutter_flow/place.dart';
 import '../../flutter_flow/uploaded_file.dart';
 >>>>>>> origin/login-Alabado-Carbonell
+=======
+import '../../flutter_flow/lat_lng.dart';
+import '../../flutter_flow/place.dart';
+import '../../flutter_flow/uploaded_file.dart';
+=======
+import '../../flutter_com/lat_lng.dart';
+import '../../flutter_com/place.dart';
+import '../../flutter_com/uploaded_file.dart';
+>>>>>>> main
+>>>>>>> main
 
 /// SERIALIZATION HELPERS
 

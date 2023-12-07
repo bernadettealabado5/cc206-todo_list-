@@ -1,14 +1,26 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import '../../flutter_com/flutter_com_animations.dart';
+import '../../flutter_com/flutter_com_theme.dart';
+import '../../flutter_com/flutter_com_util.dart';
+import '../../flutter_com/flutter_com_widgets.dart';
+=======
+>>>>>>> main
 import '/flutter_com/flutter_com_animations.dart';
 import '/flutter_com/flutter_com_theme.dart';
 import '/flutter_com/flutter_com_util.dart';
 import '/flutter_com/flutter_com_widgets.dart';
+<<<<<<< HEAD
 =======
 import '../../flutter_com/flutter_com_animations.dart';
 import '../../flutter_com/flutter_com_theme.dart';
 import '../../flutter_com/flutter_com_util.dart';
 import '../../flutter_com/flutter_com_widgets.dart';
 >>>>>>> origin/login-Alabado-Carbonell
+=======
+>>>>>>> main
+>>>>>>> main
 import 'a_homepage_widget.dart' show AHomepageWidget;
 import 'package:flutter/material.dart';
 import 'package:flutter/scheduler.dart';

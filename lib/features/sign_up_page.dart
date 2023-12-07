@@ -17,7 +17,11 @@ class SignUpPage extends StatelessWidget {
   final TextEditingController _passwordController = TextEditingController();
 
   SignUpPage({super.key});
+<<<<<<< HEAD
 >>>>>>> origin/login-Alabado-Carbonell
+=======
+>>>>>>> login-Alabado-Carbonell
+>>>>>>> main
 
   @override
   Widget build(BuildContext context) {
@@ -77,6 +81,10 @@ class SignUpPage extends StatelessWidget {
         ),
       ),
     );
+<<<<<<< HEAD
 >>>>>>> origin/login-Alabado-Carbonell
+=======
+>>>>>>> login-Alabado-Carbonell
+>>>>>>> main
   }
 }

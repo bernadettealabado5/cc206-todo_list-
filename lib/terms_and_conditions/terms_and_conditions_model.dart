@@ -1,14 +1,26 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import '../flutter_com/flutter_com_icon_button.dart';
+import '../flutter_com/flutter_com_theme.dart';
+import '../flutter_com/flutter_com_util.dart';
+import '../flutter_com/flutter_com_widgets.dart';
+=======
+>>>>>>> main
 import '/flutter_com/flutter_com_icon_button.dart';
 import '/flutter_com/flutter_com_theme.dart';
 import '/flutter_com/flutter_com_util.dart';
 import '/flutter_com/flutter_com_widgets.dart';
+<<<<<<< HEAD
 =======
 import '../flutter_com/flutter_com_icon_button.dart';
 import '../flutter_com/flutter_com_theme.dart';
 import '../flutter_com/flutter_com_util.dart';
 import '../flutter_com/flutter_com_widgets.dart';
 >>>>>>> origin/login-Alabado-Carbonell
+=======
+>>>>>>> main
+>>>>>>> main
 import 'terms_and_conditions_widget.dart' show TermsAndConditionsWidget;
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';

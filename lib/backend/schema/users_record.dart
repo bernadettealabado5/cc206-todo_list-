@@ -7,10 +7,17 @@ import '/backend/schema/util/schema_util.dart';
 
 import 'index.dart';
 <<<<<<< HEAD
+<<<<<<< HEAD
 import '/flutter_com/flutter_com_util.dart';
 =======
 import '../../flutter_com/flutter_com_util.dart';
 >>>>>>> origin/login-Alabado-Carbonell
+=======
+import '../../flutter_com/flutter_com_util.dart';
+=======
+import '/flutter_com/flutter_com_util.dart';
+>>>>>>> main
+>>>>>>> main
 
 class UsersRecord extends FirestoreRecord {
   UsersRecord._(

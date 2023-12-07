@@ -3,12 +3,23 @@ import '/backend/backend.dart';
 import '/components/create_task_new/create_task_new_widget.dart';
 import '/components/empty_list_tasks/empty_list_tasks_widget.dart';
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+import '../../flutter_com/flutter_com_animations.dart';
+import '../../flutter_com/flutter_com_icon_button.dart';
+import '../../flutter_com/flutter_com_theme.dart';
+import '../../flutter_com/flutter_com_toggle_icon.dart';
+import '../../flutter_com/flutter_com_util.dart';
+import '../../flutter_com/flutter_com_widgets.dart';
+=======
+>>>>>>> main
 import '/flutter_com/flutter_com_animations.dart';
 import '/flutter_com/flutter_com_icon_button.dart';
 import '/flutter_com/flutter_com_theme.dart';
 import '/flutter_com/flutter_com_toggle_icon.dart';
 import '/flutter_com/flutter_com_util.dart';
 import '/flutter_com/flutter_com_widgets.dart';
+<<<<<<< HEAD
 =======
 import '../../flutter_com/flutter_com_animations.dart';
 import '../../flutter_com/flutter_com_icon_button.dart';
@@ -17,6 +28,9 @@ import '../../flutter_com/flutter_com_toggle_icon.dart';
 import '../../flutter_com/flutter_com_util.dart';
 import '../../flutter_com/flutter_com_widgets.dart';
 >>>>>>> origin/login-Alabado-Carbonell
+=======
+>>>>>>> main
+>>>>>>> main
 import 'l_missed_task_widget.dart' show LMissedTaskWidget;
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';

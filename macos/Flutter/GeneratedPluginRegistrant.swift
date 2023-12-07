@@ -14,7 +14,11 @@ import shared_preferences_foundation
 import sign_in_with_apple
 =======
 import path_provider_macos
+<<<<<<< HEAD
 >>>>>>> origin/login-Alabado-Carbonell
+=======
+>>>>>>> login-Alabado-Carbonell
+>>>>>>> main
 import sqflite
 import url_launcher_macos
 
@@ -28,7 +32,11 @@ func RegisterGeneratedPlugins(registry: FlutterPluginRegistry) {
   SignInWithApplePlugin.register(with: registry.registrar(forPlugin: "SignInWithApplePlugin"))
 =======
   PathProviderPlugin.register(with: registry.registrar(forPlugin: "PathProviderPlugin"))
+<<<<<<< HEAD
 >>>>>>> origin/login-Alabado-Carbonell
+=======
+>>>>>>> login-Alabado-Carbonell
+>>>>>>> main
   SqflitePlugin.register(with: registry.registrar(forPlugin: "SqflitePlugin"))
   UrlLauncherPlugin.register(with: registry.registrar(forPlugin: "UrlLauncherPlugin"))
 }
