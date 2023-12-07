@@ -6,7 +6,11 @@ import '/backend/schema/util/firestore_util.dart';
 import '/backend/schema/util/schema_util.dart';
 
 import 'index.dart';
+<<<<<<< HEAD
 import '../../flutter_com/flutter_com_util.dart';
+=======
+import '/flutter_com/flutter_com_util.dart';
+>>>>>>> main
 
 class ToDoListRecord extends FirestoreRecord {
   ToDoListRecord._(
