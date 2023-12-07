@@ -1,8 +1,8 @@
 import '/auth/firebase_auth/auth_util.dart';
 import '/backend/backend.dart';
-import '/flutter_flow/flutter_flow_theme.dart';
-import '/flutter_flow/flutter_flow_util.dart';
-import '/flutter_flow/flutter_flow_widgets.dart';
+import '../../flutter_com/flutter_com_theme.dart';
+import '../../flutter_com/flutter_com_util.dart';
+import '../../flutter_com/flutter_com_widgets.dart';
 import 'dart:ui';
 import 'create_task_edit_widget.dart' show CreateTaskEditWidget;
 import 'package:cloud_firestore/cloud_firestore.dart';

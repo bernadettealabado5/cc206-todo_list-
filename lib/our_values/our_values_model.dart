@@ -1,7 +1,7 @@
-import '/flutter_flow/flutter_flow_icon_button.dart';
-import '/flutter_flow/flutter_flow_theme.dart';
-import '/flutter_flow/flutter_flow_util.dart';
-import '/flutter_flow/flutter_flow_widgets.dart';
+import '../flutter_com/flutter_com_icon_button.dart';
+import '../flutter_com/flutter_com_theme.dart';
+import '../flutter_com/flutter_com_util.dart';
+import '../flutter_com/flutter_com_widgets.dart';
 import 'our_values_widget.dart' show OurValuesWidget;
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';

@@ -1,6 +1,6 @@
-import '/flutter_flow/flutter_flow_theme.dart';
-import '/flutter_flow/flutter_flow_util.dart';
-import '/flutter_flow/flutter_flow_widgets.dart';
+import '../../flutter_com/flutter_com_theme.dart';
+import '../../flutter_com/flutter_com_util.dart';
+import '../../flutter_com/flutter_com_widgets.dart';
 import 'i_success_create_account_widget.dart' show ISuccessCreateAccountWidget;
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';

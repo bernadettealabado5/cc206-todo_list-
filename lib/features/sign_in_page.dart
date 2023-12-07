@@ -48,7 +48,9 @@ class SignInPage extends StatelessWidget {
                         // For simplicity, navigate to the home screen
                         Navigator.pushReplacement(
                           context,
-                          MaterialPageRoute(builder: (context) => HomeScreen(username: _usernameController.text)),
+                          MaterialPageRoute(
+                              builder: (context) => HomeScreen(
+                                  username: _usernameController.text)),
                         );
                       },
                       child: const Text('Sign In'),
